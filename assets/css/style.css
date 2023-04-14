@@ -55,6 +55,42 @@ nav a{
     font-size: 25px;
     background-color: aquamarine;
 }
-#about-me{
-    
+#About-me{
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+#About-me h2{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 45px;
+    height:150px;
+    border-right-style: solid;
+    border-color: rgb(44, 44, 44);
+    width: 39%;
+    margin-top: 15px;
+}
+.about-text{
+    width:60%;
+}
+#Work{
+    display:flex;
+    align-content: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+#Work h2{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-size: 45px;
+    height:150px;
+    border-right-style: solid;
+    border-color: rgb(44, 44, 44);
+    width: 39%;
+    margin-top: 15px;
 }
