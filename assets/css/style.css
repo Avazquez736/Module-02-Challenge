@@ -75,7 +75,7 @@ nav a{
     margin-top: 15px;
 }
 .about-text{
-    width:60%;
+    width:80%;
 }
 #Work{
     display:flex;
@@ -98,13 +98,15 @@ nav a{
 .pictures{
     display: flex;
     flex-wrap: wrap;
-    width:60%;
+    width:80%;
 }
+
 .small-pics{
     display: flex;
     width:160%;
-    flex-flow: row wrap;
-
+    flex-flow:row wrap;
+    justify-content: space-between;
+    
 }
 
 #SurfReport{
@@ -146,6 +148,7 @@ nav a{
     border-color: aquamarine;
     align-items: flex-end;
     width:49%;
+    
 }
 
 
@@ -158,6 +161,7 @@ nav a{
     border-color: aquamarine;
     align-items: flex-end;
     width:49%;
+    
 }
 #Pastel{
     display:flex;
@@ -168,6 +172,7 @@ nav a{
     border-color: aquamarine;
     align-items: flex-end;
     width:49%;
+    
 }
 #Run-Buddy{
     display:flex;
@@ -178,6 +183,7 @@ nav a{
     border-color: aquamarine;
     align-items: flex-end;
     width:49%;
+   
 }
 .ledtext{
     display: flex;
@@ -211,10 +217,6 @@ nav a{
     width:150px;
     margin-bottom: 0px;
 }
-
-
-
-
 footer{
     display:flex;
     align-items: center;
@@ -235,7 +237,7 @@ footer{
 .notes{
     display: flex;
     justify-content: space-between;
-    width:60%;
+    width:80%;
     text-decoration: underline;
     text-decoration-thickness:2px;
     font-size: 20px;
