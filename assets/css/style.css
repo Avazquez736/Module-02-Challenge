@@ -1,0 +1,60 @@
+#back-pic{
+    background-image: url(images/simple-pattern-background-black-line-design-vector_53876-151305.jpg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color:rgb(44, 44, 44);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+display: flex;
+
+justify-content: flex-end;
+
+align-items: center;
+
+font-size: 36px;
+
+background-color: aquamarine;
+
+color: rgb(44,44,44);
+
+width: 250px;
+
+height: 90px;
+
+} 
+nav p{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+nav a{
+    font-size: 20px;
+    color:aquamarine; 
+}
+    
+
+.nav1{
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    flex:.4;
+}
+.subtitle{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 300px;     
+}
+#cool-subtitle{
+    font-size: 25px;
+    background-color: aquamarine;
+}
+#about-me{
+    
+}
